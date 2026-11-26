@@ -1,0 +1,66 @@
+# Kişisel / gizli — ASLA commit edilmez
+.env
+*.key
+*_secret*
+CV_HakanOGUZ.pdf
+Mühendislik Kariyeri ve Kriz Yönetimi.pdf
+_referans/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Meta / iç dosyalar (proje koduyla ilgisi yok)
+PORTFOY-URETIM-KILAVUZU.md
+AGENTS.md
+GEMINI.md
+# Antigravity çalışma alanı (kendi ayrı git deposu var, ana repoya karışmaz)
+antigravity/
+CLAUDE.md
+onay-*.md
+plan-*.md
+notlar-*.md
+
+# Geçici / sistem
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+*.asv
+slprj/
+
+# LaTeX ara dosyalari (makale .tex ve .pdf PUSH EDILIR, bunlar edilmez)
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Derleme artiklari
+*.exe
+*.o
+*.obj
+build/
+managed_components/
+dependencies.lock
+samples.csv
+
+# yerel uretim araclari (repoya girmez) + ara formatlar
+_tools/
+*.dxf
+*.kicad_prl
+
+# PCB ara dosyalari
+*.dsn
+*.ses
+x.kicad_*
+.vscode/
+Muhendislik_Kariyeri_ve_Kriz_Yonetimi.pdf
+
+*.db
